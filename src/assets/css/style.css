@@ -1,0 +1,199 @@
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font-family: 'Source Sans Pro', 'Roboto', 'Arial', sans-serif;
+    height: 100%;
+}
+
+body {
+    font-size: 15px;
+    margin: 0;
+    line-height: 24px;
+}
+
+p {
+    font-size: 15px;
+    margin: 0;
+}
+
+body {
+    margin: 0;
+    min-height: 100%;
+    padding: 0;
+}
+
+body::-webkit-scrollbar {
+     width: 0.8em;
+     height: 0.8em;
+ }
+
+body::-webkit-scrollbar-track {
+     -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+ }
+
+body::-webkit-scrollbar-thumb {
+     background-color: darkgrey;
+     outline: 1px solid slategrey;
+ }
+
+body::-webkit-scrollbar {
+     width: .5em;
+ }
+
+
+*::-webkit-scrollbar {
+    width: 0.5em;
+    height: 0.5em;
+}
+
+*::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: darkgrey;
+    outline: 1px solid slategrey;
+}
+
+button,
+input,
+optgroup,
+select,
+textarea {
+    font-family: 'Roboto', 'Arial', sans-serif;
+    font-weight: 300;
+    background-color: transparent;
+    border-style: none;
+    color: inherit;
+}
+button,
+input,
+optgroup,
+select,
+textarea:focus {
+     outline: 0;
+ }
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+.main-container {
+    height:86vh;
+}
+
+.left-container {
+    height: 84vh;
+    border-right: 1px solid #eee;
+    box-shadow: none !important;
+    border-radius: 0 !important;
+    background: #f9f9f9 !important;
+    margin-top: 10px;
+}
+
+
+
+.u-white{
+    color:#fff;
+}
+.u-padding-16 {
+    padding: 16px;
+}
+.u-padding-left-12 {
+    padding-left: 12px;
+}
+
+.u-margin-right-8 {
+    margin-right: 8px;
+}
+
+
+/*--------------start  css for tree structure -------- */
+body {
+    font-family: Arial;
+}
+
+ul.tree li {
+    list-style-type: none;
+    position: relative;
+}
+
+ul.tree li ul {
+    display: none;
+}
+
+ul.tree li.open > ul {
+    display: block;
+}
+
+ul.tree li a {
+    color: black;
+    text-decoration: none;
+}
+ul.tree li a:before {
+    height: 1em;
+    font-size: .8em;
+    display: block;
+    position: absolute;
+    left: -14px;
+    top: 0px;
+}
+
+ul.tree li > a:not(:last-child):before {
+        content: "›";
+        font-size: 18px;
+        font-weight: 600;
+}
+
+ul.tree li.open > a:not(:last-child):before {
+    content: "›";
+        font-size: 18px;
+        font-weight: 600;
+        transform: rotate(50deg);
+}
+
+
+
+/*------------------ END tree structure ---------------- */
+.icon-class {
+    width:22px !important;
+    color: #15959c;
+    vertical-align: bottom;
+    margin-right : 8px;
+}
+.main-folder {
+    width:25px !important;
+    color: #3b657d;
+    vertical-align: bottom;
+    margin-right : 8px;
+}
+.ellipsizeString{
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.naehas_button:hover{
+    opacity: 0.8;
+    background-color: rgb(59, 101, 125) !important; 
+    
+}
+.naehas_button{     
+        font-size: 15px !important;
+        font-weight: normal;
+        box-shadow: none !important;
+        padding:0 35px !important;
+        color: #fff !important;
+        line-height: 34px !important;
+        background-color: rgb(59, 101, 125) !important;
+}
+
+.naehas-list-grid {
+    background-color:white !important;
+}
