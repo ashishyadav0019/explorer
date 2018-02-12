@@ -8,6 +8,19 @@ import './assets/css/font.css'
 import MerlinFileManager from './components/merLinFileManager'
 //import PersistentDrawer from './components/drawer'
 
+// const express = require('express');
+// // debugger
+// console.log(express,234)
+// const path = require('path');
+// const app = express();
+//
+// app.use(express.static(path.join(__dirname, 'build')));
+//
+// app.get('/', function (req, res) {
+//     res.sendFile(path.join(__dirname, 'build', 'index.html'));
+// });
+
+
 export default class App extends React.Component {
     render() {
         return (
